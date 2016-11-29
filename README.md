@@ -17,10 +17,10 @@ For the smartphone data set, relevant experiments were carried out with a group 
 
 3. `run_analysis.R`: code generating the tidy data set from raw data recorded in the *Human Activity Recognition Using Smartphones Data Set*. The process of generating tidy data set includes the following steps:
 
-- Merges the training and the test sets to create one data set called `mergedata`.
-- Extracts only the measurements on the mean and standard deviation for each measurement to get `feature_mean_std`.
-- Uses descriptive activity names to name the activities in the data set, replace `activity_id` with descriptive names in `activity_label`.
-- Appropriately labels the data set with descriptive variable names given in `feature_name`.
-- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject `unique_act_sub`.
+   - Merges the training and the test sets to create one data set called `mergedata`.
+   - Extracts only the measurements on the mean and standard deviation for each measurement to get `feature_mean_std`.
+   - Uses descriptive activity names to name the activities in the data set, replace `activity_id` with descriptive names in `activity_label`.
+   - Appropriately labels the data set with descriptive variable names given in `feature_name`.
+   - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject `unique_act_sub`.
 
 4. `CodeBook.md`: a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data
