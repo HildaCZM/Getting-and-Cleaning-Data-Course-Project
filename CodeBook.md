@@ -14,9 +14,23 @@ This code book describes the variables of the data set, and any transformations 
 
 ### Identifiers
 * `subject_id`: The ID of the volunteer ranging from 1 - 30
-* `activity_name`: specific activities individuals were performing, includes: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+* `activity_name`: specific activities individuals were performing, includes: `WALKING`, `WALKING_UPSTAIRS`, `WALKING_DOWNSTAIRS`, `SITTING`, `STANDING`, `LAYING`
 
 ### Measured Variables
+#### feature info
+* `t`: time domain signal
+* `Acc`: acceleration signal
+* `Gyro`: gyroscope signal
+* `Jerk`: jerk signal obtained from linear acceleration and angular velocity
+* `Mag`: magnitude of signal
+* `-XYZ`: 3-axial signals in the `X`, `Y`, `Z` directions
+* `f`: fast Fourier transform of the signal
+* `mean()`: statistical mean applied to the time domain signal
+* `std()`: standard deviation of the time domain signal
+* `Body`: results from human movement
+* `Gravity`: results from gravitational force
+
+#### feature detail
 * `tBodyAcc-mean()-X`
 * `tBodyAcc-mean()-Y`
 * `tBodyAcc-mean()-Z`
