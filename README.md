@@ -9,7 +9,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 For the smartphone data set, relevant experiments were carried out with a group of 30 volunteers within an age bracket of 19-48 years old. Each individual performed six different activities wearing a smartphone, including walking, walking upstairs, walking downstairs, sitting, standing and laying. The smartphone was embedded accelerometer and gyroscope to capture the movement of the individuals. The experiments were also video-recorded to label the data manually. 
 
-##This repository includes the following files
+## This repository includes the following files
 
 1. `README.md`: explains how all of the scripts work and how they are connected.
 
@@ -24,3 +24,9 @@ For the smartphone data set, relevant experiments were carried out with a group 
    - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject `unique_act_sub`.
 
 4. `CodeBook.md`: a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data
+
+## Helpful links:
+
+- <https://github.com/hglennrock/getting-cleaning-data-project>
+
+- <https://github.com/OscarPDR/Coursera-Getting-and-Cleaning-Data-Course-Project>
